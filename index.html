@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bootstrapcdn</title>
+</head>
+
+<body>
+<div class= "container">
+	
+	<script>
+		var weight = 2000; // given for the weight grams
+		document.write(" <h2> click the button </h2>" + ' ' + weight+ "g" + "will change the weight scale");
+
+	</script>
+</div>
+
+<br>
+
+<div class= "container">
+
+	<p id="display"> </p>
+	<button type="button" onclick= "var weight = 1000; var kilo= 1000; document.getElementById('display').innerHTML= weight/kilo + 'kg';"> Kilo </button>
+
+</div>
+
+<div class= "container">
+
+	<p id="display"> </p>
+	<button type="button" onclick= "var weight = 1000; var miligram= 1000; document.getElementById('display').innerHTML= weight/miligram + 'mg';"> miligram </button>
+
+</div>
+
+</body>
+</html>
